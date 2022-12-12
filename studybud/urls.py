@@ -18,17 +18,11 @@ from django.http import HttpResponse
 from django.urls import path, include
 
 
-def home(request):
-    return HttpResponse('Home page')
-
-
-def room(request):
-    return HttpResponse('ROOM')
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('base/', include('base.urls')),
-    path('room/', room)
+    path('', include('base.urls')),
+#     path('room/', room),
+#     path('', home)
+ ]
 
-]
