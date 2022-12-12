@@ -1,13 +1,10 @@
 from django.urls import path
 from . import views
+from .views import home, room
 
 app_name = "base"
 
 urlpatterns = [
-    path('', views.home, name="home"),
+    path('rooms', views.home, name="home"),
     path('room/<str:pk>/', views.room, name="room"),
 ]
-
-#    path('', home),
-#     path('room/', room)
-# ]
