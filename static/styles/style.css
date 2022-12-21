@@ -447,7 +447,6 @@ a {
   align-items: center;
 }
 
-
 .layout__boxTitle h3 {
   text-transform: uppercase;
   font-weight: 500;
@@ -1160,7 +1159,7 @@ a {
 
 .participant span {
   display: block;
-  /*font-weight: 500;*/
+  font-weight: 500;
   color: var(--color-main);
-  /*font-weight: 1.4rem;*/
+  font-weight: 1.4rem;
 }
