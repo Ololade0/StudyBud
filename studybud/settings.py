@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "corsheaders",
 ]
 
-
 AUTH_USER_MODEL = 'base.User'
 
 MIDDLEWARE = [
@@ -78,7 +77,6 @@ TEMPLATES = [
             ],
         },
     },
-
 ]
 
 WSGI_APPLICATION = 'studybud.wsgi.application'
