@@ -13,16 +13,17 @@
       </div>
       <div class="layout__body">
         <h2 class="auth__tagline">Find your study partner</h2>
-
+           <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
         <form class="form" action="" method="POST">
           {% csrf_token %}
           <div class="form__group form__group">
             <label for="room_name">Email</label>
-            <input id="username" name="email" type="email" placeholder="e.g. dennis_ivy@email.com />
-          </div>
+            <input id="username" name="email" type="email" placeholder="e.g. ololade@email.com "/>
+
           <div class=" form__group">
             <label for="password">Password</label>
             <input id="password" name="password" type="password"
+
               placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" />
           </div>
 

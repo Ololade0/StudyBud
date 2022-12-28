@@ -1,4 +1,5 @@
 {% extends 'main.html' %}
+{% load static %}
 
 {% block content %}
 
@@ -11,7 +12,10 @@
         <label>Username:</label>
         <input type="text" name="username" placeholder="Enter Username" />
 
+
         <label>Password:</label>
+         <div class="Ololade">PASWWORD MUST COINTAIN LETTERS, NUMBERS AND SYMBOLS</div>
+
         <input type="password" name="password" placeholder="Enter Password" />
 
         <input type="submit" value="Login" />
